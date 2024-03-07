@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+
+}
+
+.container{
+    height: 100vh;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container .profile{
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+    min-height: 100vh;
+}
+
+.container .profile .info{
+    width: 60%;
+
+}
+
+.container .profile .image{
+    width: 400px;
+
+
+}
+
+.container .profile .image img{
+    width: 100%;
+}
+
+
+
+.container .profile .about{
+    width: 100%;
+}
+
+.container .profile .about img{
+    width: 100%;
+}
